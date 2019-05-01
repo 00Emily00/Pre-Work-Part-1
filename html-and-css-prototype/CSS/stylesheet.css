@@ -40,3 +40,102 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.page_header {
+    text-align: center;
+}
+.speech_bubble {
+    width: 260px;
+    margin: 10px auto;
+    background: #424242;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-family: serif;
+    position:relative;
+    border-radius: 3px;
+}
+.speech_bubble:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #424242;
+    border-bottom: 10px solid transparent;
+    right: 25px;
+    bottom: -15px;
+}
+.grid_container {
+    width: 260px;
+    border: 1px solid #eaeaea;
+    margin: auto;
+/*    padding: 6px;*/
+    box-shadow: inset 0 0 10px #eaeaea;
+}
+.d1 {
+     width: 204px;
+    border: 1px solid #EF5F3C;
+    background-color: #EF5F3C;
+    padding: 4px;
+}
+
+.main_information {
+    width: 260px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 5px 6px -6px #eaeaea;
+    padding: 20px;
+    margin: auto;
+    font-size: 12px;
+    color: #777; 
+    
+}
+.bold_span, .red_span {
+    font-weight: bold;
+}
+.red_span {
+    color: #EF5F3C;
+}
+
+.donation {
+    display: flex;
+    justify-content: space-between;
+}
+.donation button {
+    background-color: #1CBC2C;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 18px;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+.donation input {
+    height: 48px;
+    width: 103px;
+    margin-top: 5px;
+}
+.main_info_p2 {
+    color: #20A1D4;
+    font-style: italic;
+    font-size: 11px;
+    padding: 5px 0px;
+}
+input::placeholder {
+    font-size: 15px;
+    font-weight: bold;
+    color: #424242;
+}
+.bottom_btns_container {
+    display: flex;
+    justify-content: center;
+}
+.bottom_btn {
+    padding: 10px 21px;
+    margin: 11px 8px;
+    border-color: #eaeaea;
+    box-shadow: inset 0 0 10px #eaeaea;
+}
